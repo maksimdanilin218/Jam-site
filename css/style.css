@@ -1,0 +1,369 @@
+body{
+    background-color: #FEE4BE;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*header*/
+.header{
+    background-image: url(../img/фон.png);
+    height: 800px;
+    width: auto;
+    background-repeat: no-repeat;
+}
+.menu{
+    display: flex;
+    height: 60px;
+}
+.logo {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.logotip {
+    width: 80px;
+    height: 80px;
+}
+.button {
+    display: flex;
+    width: 1200px;
+    margin-top: 20px;
+    height: 50px;
+    align-items: center;
+    gap: 200px;
+    margin-left: 400px;
+}
+.menu__btn {
+    width: 600px;
+    height: 40px;
+    
+    
+}
+.button__menu {
+    text-decoration: none;
+    width: 50px;
+    height: 40px;
+    font-size: 22px;
+    margin-left: 30px;
+    color: black; 
+}
+.search__btn {
+    width: 100px;
+    display: flex;
+}
+.button__search {
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+/*zagolovok*/
+.zagolovok {
+    margin-top: 150px;
+    margin-left: 160px;
+}
+.h1__zagolovok {
+    font-size: 46px;
+}
+.span__zagolovok {
+    font-size: 40px;
+    color: #e39d10;
+}
+.p__zagolovok {
+    font-size: 24px;
+    width: 450px;
+}
+.p__span{
+    color: #e39d10;
+}
+.button__catalog {
+    margin-top: 80px;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: #e39d10;
+    text-align: center;
+}
+.catalog{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+.foto__zagolovk {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -330px;
+}
+.img__zagolovok {
+}
+/*about us*/
+.about__us {
+    background-image: url(../img/фон.png);
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.h1__about__us {
+    font-size: 46px;
+    margin-left: 160px;
+}
+.img__about{
+    
+}
+.info{
+    display: flex;
+    margin-top: 100px;
+}
+.img__about__us {
+    margin-top: 0px;
+    margin-left: 160px;
+    display: flex;
+}
+.info__about__us {
+}
+.p__info {
+    color: black;
+    font-size: 18px;
+    width: 600px;
+}
+.span__about__us {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.grid__about__us {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 600px;
+    gap: 20px;
+    margin-top: 40px;
+}
+.time__grid {
+}
+.time__svg {
+    height: 40px;
+    width: 40px;
+    margin-left: 80px;
+}
+.h1__time {
+    font-size: 18px;
+    text-align: center;
+    
+}
+.star__grid { 
+}
+.star__svg {
+    height: 40px;
+    width: 40px;
+    margin-left: 70px;
+}
+.h1__star {
+    font-size: 18px;
+    text-align: center;
+}
+.truck__grid {
+    
+}
+.truck__svg {
+    height: 40px;
+    width: 40px;
+    margin-left: 70px;
+}
+.h1__truck {
+    font-size: 18px;
+    text-align: center;
+}
+.button__catalog2 {
+    margin-top: 80px;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: #e39d10;
+    text-align: center;
+}
+.catalog2{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+/*jam__catalog*/
+.catalog__jam {
+    background-image: url(../img/фон.png);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.h1__jam {
+    margin-left: 160px;
+    font-size: 40px;
+}
+.jam__grid{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    margin-left: 160px;
+    margin-top: 60px;
+}
+.jam {
+    width: 260px;
+    margin-bottom: 50px;
+}
+.img__jam {
+}
+.jam__info {
+    text-align: center;
+    width: 260px;
+}
+.jam__price {
+    display: flex;
+    width: 260px;
+    margin-left: 70px;
+}
+.p__price{
+    font-weight: bolder;
+    color: greenyellow;
+}
+.sale {
+    display: flex;
+    width: 150px;
+    margin-left: 10px;
+}
+.p__sale1{
+    text-decoration: line-through;
+}
+.p__sale2{
+    color: red;
+    margin-left: 5px;
+}
+/*partners*/
+.partners {
+    margin-top: 200px;
+    height: 300px;
+}
+.h1__patners {
+    font-size: 40px;
+    margin-left: 160px;
+}
+.img__part {
+    margin-top: 80px;
+    margin-left: 160px;
+}
+.img__partners {
+    margin-right: 100px;
+}
+/*large order*/
+.large__order {
+    background-image: url(../img/фон.png);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.h1__order {
+    margin-left: 160px;
+    padding-top: 80px;
+    margin-bottom: 100px;
+    font-size: 40px;
+}
+.registration {
+    margin-left: 400px;
+    width: 800px;
+    border-radius: 10px;
+    background-color: #f0c162;
+    height: 400px;
+}
+.h1__yavka {
+    width: 300px;
+    margin-top: 0;
+    padding-top: 40px;
+    margin-left: 250px;
+    font-size: 38px;
+}
+.button__grid {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    width: 700px;
+    gap: 30px;
+    margin-left: 60px;
+}
+.name {
+}
+.h1__name {
+    font-size: 20px;
+}
+.btn__name {
+    color: black;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    text-align: center;
+    width: 240px;
+}
+.number {
+}
+.h1__number {
+    font-size: 20px;
+}
+.btn__number {
+    color: black;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    text-align: center;
+    width: 240px;
+}
+.e-mail {
+    font-size: 26px;
+}
+.h1__e-mail {
+    font-size: 20px;
+}
+.btn__e-mail {
+    color: black;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    text-align: center;
+    width: 240px;
+}
+.button__yavka {
+    height: 35px;
+    width: 250px;
+    margin-top: 50px;
+    background-color: coral;
+    border-radius: 10px;
+}
+.a__yavka {
+    margin-left: 60px;
+    text-decoration: none;
+    color: white;
+    height: 30px;
+    margin-top: 10px;
+    width: 250px;
+    top: 25%;
+    position: relative;
+}
+/*flooter*/
+.flooter {
+    background-color: #FFD392;
+    height: 200px
+    ;
+}
+.menu2 {
+    padding-top: 70px;
+    display: flex;
+}
+.button2{
+}
+.buy__jam {
+    width: 170px;
+    background-color: coral;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+.btn__buy__jam {
+    text-decoration: none;
+    top: 25%;
+    position: relative;
+    margin-left: 20px;
+    color: black;
+    font-size: 18px;
+}
+
+
+
+
+
+
