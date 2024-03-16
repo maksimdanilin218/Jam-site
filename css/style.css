@@ -345,12 +345,20 @@ body{
     display: flex;
 }
 .button2{
+    width: 1200px;
+    margin-top: 20px;
+    height: 50px;
+    align-items: center;
+    gap: 200px;
+    margin-left: 400px;
 }
 .buy__jam {
     width: 170px;
     background-color: coral;
     height: 40px;
     border-radius: 10px;
+    margin-left: 160px;
+    margin-top: 10px;
     
 }
 .btn__buy__jam {
