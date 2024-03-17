@@ -407,6 +407,7 @@ body{
         width: 60px;
         margin-left: 250px;
         margin-top: -40px;
+        padding-left: 10px;
     }
     .button__search {
         width: 20px;
@@ -534,6 +535,7 @@ body{
     /*flooter*/
     .flooter {
         height: 150px;
+        width: auto;
     }
     .menu2 {
         width: 390px;
