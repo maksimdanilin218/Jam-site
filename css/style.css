@@ -378,7 +378,7 @@ body{
     color: black;
     font-size: 18px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 400px) and (max-width: 480px) {
     body{
         width: auto;
     }
@@ -618,7 +618,262 @@ body{
         margin-left: 0;
     }
 }
-
+@media screen and (min-width: 300px) and (max-width: 360px){
+    body{
+        width: 360px;
+    }
+    /*header*/
+    .header {
+        background-image: none;
+        height: 600px;
+    }
+    .menu {
+        width: 340px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 20px;
+        height: 30px;
+    }
+    .logotip {
+        width: 25px;
+        height: 25px;
+    }
+    .button {
+        margin-left: 10px;
+        display: block;
+        width: 230px;
+        height: 20px;
+    }
+    .menu__btn {
+        width: 390px;
+    }
+    .button__menu {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .search__btn {
+        width: 60px;
+        margin-left: 250px;
+        margin-top: -40px;
+    }
+    .button__search {
+        width: 13px;
+        height: 13px;
+        margin-right: 10px;
+        
+    }
+    /*zagolovok*/
+    .zagolovok {
+        margin-left: 10px;
+        text-align: center;
+        width: 300px;
+    }
+    .h1__zagolovok {
+        font-size: 26px;
+        width: 300px;
+    }
+    .span__zagolovok {
+        font-size: 30px;
+    }
+    .p__zagolovok {
+        width: 300px;
+        text-align: center;
+        font-size: 22px;
+    }
+    .p__span {
+    }
+    .button__catalog {
+        margin-left: 60px;
+        width: 150px;
+    }
+    .catalog {
+        position: relative;
+        text-align: center;
+        display: block;
+        top: 5px;
+        font-size: 20px;
+        width: 150px;
+        height: 40px;
+    }
+    .foto__zagolovk {
+        visibility: hidden;
+        height: 200px;
+    }
+    .img__zagolovok {
+    }
+    /*about us*/
+    .about__us {
+        background-image: none;
+        height: 1270px;
+    }
+    .h1__about__us {
+        margin-left: 30px;
+        margin-bottom: 0;
+        width: 160px;
+    }
+    .info {
+        display: block;
+        margin-top: 50px;
+    }
+    .img__about__us {
+        margin-left: 30px;
+        height: 300px;
+        width: 300px;
+        
+    }
+    .info__about__us {
+        width: 330px;
+        margin-left: 20px;
+    }
+    .p__info {
+        width: 330px;
+        text-align: center;
+    }
+    .span__about__us {
+    }
+    .grid__about__us {
+        margin-left: 50px;
+        margin-top: 90px;
+        width: 200px;
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+    }
+    .time__grid {
+        margin: 0;
+        text-align: center;
+    }
+    .time__svg {
+        margin: 0;
+    }
+    .h1__time {
+    }
+    .star__grid {
+        text-align: center;
+    }
+    .star__svg {
+        margin: 0;
+        text-align: center;
+    }
+    .h1__star {
+    }
+    .truck__grid {
+        text-align: center;
+    }
+    .truck__svg {
+        margin: 0;
+        text-align: center;
+    }
+    .h1__truck {
+    }
+    
+    /*catalog jam*/
+    .catalog__jam {
+        background-image: none;
+        width: 360px;
+        height: 2650px;
+    }
+    .h1__jam {
+        margin-left: 30px;
+        width: 170px;
+    }
+    .jam__grid {
+        margin-left: 40px;
+        display: grid;
+        grid-template-columns: repeat(1,6fr);
+    }
+    .jam__price{
+        width: 170px;
+        margin-left: 60px;
+    }
+    .sale{
+        width: 100px;
+    }
+    /*partners*/
+    .partners {
+        margin-top: 0;
+        height: 500px;
+    }
+    .h1__patners {
+        width: 200px;
+        margin-left: 30px;
+    }
+    .img__part {
+        margin-left: 40px;
+        width: 280px;
+    }
+    .img__partners {
+        margin-right: 0;
+        margin-bottom: 60px;
+        width: 250px;
+    }
+    /*large order*/
+    .large__order {
+        background-image: none;
+    }
+    .h1__order {
+        padding: 0;
+        width: 300px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .registration {
+        margin-left: 0;
+        width: 320px;
+        height: 600px;
+        margin-left: 20px;
+    }
+    .h1__yavka {
+        margin-left: 40px;
+        font-size: 30px;
+        width: 250px;
+    }
+    .button__grid {
+        display: grid;
+        grid-template-columns: repeat(1,4fr);
+        width: 280px;
+        margin-left: 30px;
+    }
+    /*flooter*/
+    .flooter {
+        height: 150px;
+        width: 360px;
+    }
+    .menu2 {
+        width: 390px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    .logo {
+    }
+    .logotip {
+    }
+    .button2 {
+        margin-left: 30px;
+        width: 300px;
+    }
+    .menu__btn {
+        width: 300px;
+    }
+    .button__menu {
+    }
+    .buy__jam {
+        margin-left: 30px;
+        width: 130px;
+        height: 30px;
+        text-align: center;
+        margin-top: 0;
+        padding-bottom: 5px;
+        
+    }
+    .btn__buy__jam {
+        font-size: 14px;
+        text-align: center;
+        margin-left: 0;
+    }
+    
+}
 
 
 
