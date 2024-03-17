@@ -62,7 +62,8 @@ body{
 }
 .h1__zagolovok {
     font-size: 46px;
-    font-family: Lobster; 
+    font-family: Lobster;
+    width: 360px; 
 }
 .span__zagolovok {
     font-size: 40px;
@@ -219,7 +220,6 @@ body{
 }
 .p__price{
     font-weight: bolder;
-    color: chartreuse;
     -webkit-text-stroke: 1px black;
     -webkit-text-fill-color: chartreuse
 }
@@ -385,6 +385,7 @@ body{
     /*header*/
     .header {
         background-image: none;
+        height: 600px;
     }
     .menu {
         width: 390px;
@@ -440,7 +441,7 @@ body{
     .p__span {
     }
     .button__catalog {
-        margin-left: 80px;
+        margin-left: 90px;
         width: 150px;
     }
     .catalog {
@@ -448,17 +449,19 @@ body{
     }
     .foto__zagolovk {
         visibility: hidden;
+        height: 200px;
     }
     .img__zagolovok {
     }
     /*about us*/
     .about__us {
         background-image: none;
-        height: 1370px;
+        height: 1270px;
     }
     .h1__about__us {
-        margin-left: 80px;
+        margin-left: 30px;
         margin-bottom: 0;
+        width: 160px;
     }
     .info {
         display: block;
@@ -522,7 +525,7 @@ body{
         height: 2650px;
     }
     .h1__jam {
-        margin-left: 80px;
+        margin-left: 30px;
     }
     .jam__grid {
         margin-left: 70px;
@@ -539,7 +542,7 @@ body{
     }
     .h1__patners {
         width: 200px;
-        margin-left: 80px;
+        margin-left: 30px;
     }
     .img__part {
         margin-left: 60px;
