@@ -2,6 +2,7 @@ body{
     background-color: #FEE4BE;
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Lobster; 
 }
 /*header*/
 .header{
@@ -61,6 +62,7 @@ body{
 }
 .h1__zagolovok {
     font-size: 46px;
+    font-family: Lobster; 
 }
 .span__zagolovok {
     font-size: 40px;
@@ -69,6 +71,7 @@ body{
 .p__zagolovok {
     font-size: 24px;
     width: 450px;
+    font-family: Lobster; 
 }
 .p__span{
     color: #e39d10;
