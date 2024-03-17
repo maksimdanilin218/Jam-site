@@ -378,7 +378,7 @@ body{
     color: black;
     font-size: 18px;
 }
-@media screen and (min-width: 400px) and (max-width: 480px) {
+@media screen and (min-width: 370px) and (max-width: 480px) {
     body{
         width: auto;
     }
@@ -386,6 +386,7 @@ body{
     .header {
         background-image: none;
         height: 600px;
+        width: auto;
     }
     .menu {
         width: 390px;
@@ -425,17 +426,20 @@ body{
     /*zagolovok*/
     .zagolovok {
         margin-left: 20px;
-        text-align: center;
+        margin-left: 0;
+        width: auto;
     }
     .h1__zagolovok {
         font-size: 30px;
+        width: auto;
+        text-align: center;
 
     }
     .span__zagolovok {
         font-size: 30px;
     }
     .p__zagolovok {
-        width: 360px;
+        width: auto;
         text-align: center;
     }
     .p__span {
@@ -457,25 +461,27 @@ body{
     .about__us {
         background-image: none;
         height: 1270px;
+        width: auto;
     }
     .h1__about__us {
-        margin-left: 30px;
+        margin-left: 0;
         margin-bottom: 0;
-        width: 160px;
+        width: auto;
+        text-align: center;
     }
     .info {
         display: block;
         margin-top: 50px;
     }
     .img__about__us {
-        margin-left: 90px;
-        height: 200px;
+        margin-left: 60px;
+        height: 300px;
         width: 300px;
         
     }
     .info__about__us {
         width: 350px;
-        margin-left: 20px;
+        margin-left: 50px;
     }
     .p__info {
         width: 350px;
@@ -484,7 +490,7 @@ body{
     .span__about__us {
     }
     .grid__about__us {
-        margin-left: 80px;
+        margin-left: 60px;
         margin-top: 90px;
         width: 200px;
         display: grid;
@@ -521,11 +527,13 @@ body{
     /*catalog jam*/
     .catalog__jam {
         background-image: none;
-        width: 360px;
+        width: auto;
         height: 2650px;
     }
     .h1__jam {
-        margin-left: 30px;
+        margin-left: 0;
+        width: auto;
+        text-align: center;
     }
     .jam__grid {
         margin-left: 70px;
@@ -537,36 +545,43 @@ body{
     }
     /*partners*/
     .partners {
+        width: auto;
         margin-top: 0;
         height: 500px;
     }
     .h1__patners {
-        width: 200px;
-        margin-left: 30px;
+        width: auto;
+        text-align: center;
+        margin: 0;
     }
     .img__part {
-        margin-left: 60px;
+        margin-left: 0px;
+        width: auto;
+        text-align: center;
     }
     .img__partners {
-        margin-right: 0;
+        margin-left: 40px;
         margin-bottom: 60px;
         width: 250px;
     }
     /*large order*/
     .large__order {
         background-image: none;
+        width: auto;
     }
     .h1__order {
         padding: 0;
-        width: 300px;
-        margin-left: 60px;
+        width: auto;
+        margin-left: 0;
         margin-bottom: 30px;
+        text-align: center;
     }
     .registration {
         margin-left: 0;
         width: 350px;
         height: 600px;
         margin-left: 20px;
+        justify-content: center;
     }
     .h1__yavka {
         margin-left: 40px;
