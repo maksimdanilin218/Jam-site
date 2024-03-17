@@ -70,8 +70,7 @@ body{
 }
 .p__zagolovok {
     font-size: 24px;
-    width: 450px;
-    font-family: Lobster; 
+    width: 450px; 
 }
 .p__span{
     color: #e39d10;
@@ -216,10 +215,13 @@ body{
     display: flex;
     width: 260px;
     margin-left: 70px;
+    font-size: 18px;
 }
 .p__price{
     font-weight: bolder;
-    color: greenyellow;
+    color: chartreuse;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: chartreuse
 }
 .sale {
     display: flex;
@@ -421,16 +423,18 @@ body{
     }
     /*zagolovok*/
     .zagolovok {
-        margin-left: 30px;
+        margin-left: 20px;
         text-align: center;
     }
     .h1__zagolovok {
         font-size: 30px;
+
     }
     .span__zagolovok {
+        font-size: 30px;
     }
     .p__zagolovok {
-        width: 300px;
+        width: 360px;
         text-align: center;
     }
     .p__span {
@@ -559,7 +563,7 @@ body{
         margin-left: 0;
         width: 350px;
         height: 600px;
-        margin-left: 5%;
+        margin-left: 20px;
     }
     .h1__yavka {
         margin-left: 40px;
