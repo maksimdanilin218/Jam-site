@@ -556,14 +556,15 @@ body{
         margin-bottom: 30px;
     }
     .registration {
-        margin-left: 25px;
-        width: 340px;
+        margin-left: 0;
+        width: 350px;
         height: 600px;
+        margin-left: 5%;
     }
     .h1__yavka {
         margin-left: 40px;
         font-size: 30px;
-        width: 200px;
+        width: 250px;
     }
     .button__grid {
         display: grid;
@@ -599,20 +600,16 @@ body{
         margin-left: 30px;
         width: 130px;
         height: 30px;
+        text-align: center;
+        margin-top: 0;
+        padding-bottom: 5px;
         
     }
     .btn__buy__jam {
         font-size: 14px;
+        text-align: center;
+        margin-left: 0;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-
 }
 
 
