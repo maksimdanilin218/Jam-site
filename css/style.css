@@ -372,6 +372,207 @@ body{
     color: black;
     font-size: 18px;
 }
+@media screen and (max-width: 480px) {
+    body{
+        width: 390px;
+    }
+    /*header*/
+    .header {
+        background-image: none;
+    }
+    .menu {
+        width: 390px;
+    }
+    .logo {
+        margin-left: 10px;
+    }
+    .logotip {
+        width: 40px;
+        height: 40px;
+    }
+    .button {
+        margin-left: 20px;
+        display: block;
+        width: 250px;
+        height: 20px;
+    }
+    .menu__btn {
+        width: 390px;
+    }
+    .button__menu {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .search__btn {
+        width: 60px;
+        margin-left: 250px;
+        margin-top: -40px;
+    }
+    .button__search {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        
+    }
+    /*zagolovok*/
+    .zagolovok {
+        margin-left: 30px;
+    }
+    .h1__zagolovok {
+        font-size: 30px;
+    }
+    .span__zagolovok {
+    }
+    .p__zagolovok {
+        width: 300px;
+        text-align: center;
+    }
+    .p__span {
+    }
+    .button__catalog {
+        margin-left: 80px;
+        width: 150px;
+    }
+    .catalog {
+        font-size: 26px;
+    }
+    .foto__zagolovk {
+        visibility: hidden;
+    }
+    .img__zagolovok {
+    }
+    /*about us*/
+    .about__us {
+        background-image: none;
+        height: 1370px;
+    }
+    .h1__about__us {
+        margin-left: 80px;
+        margin-bottom: 0;
+    }
+    .info {
+        display: block;
+        margin-top: 50px;
+    }
+    .img__about__us {
+        margin-left: 90px;
+        height: 200px;
+        width: 300px;
+        
+    }
+    .info__about__us {
+        width: 350px;
+        margin-left: 20px;
+    }
+    .p__info {
+        width: 350px;
+        text-align: center;
+    }
+    .span__about__us {
+    }
+    .grid__about__us {
+        margin-left: 80px;
+        width: 200px;
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+    }
+    /*catalog jam*/
+    .catalog__jam {
+        background-image: none;
+        width: 360px;
+        height: 2650px;
+    }
+    .h1__jam {
+        margin-left: 80px;
+    }
+    .jam__grid {
+        margin-left: 70px;
+        display: grid;
+        grid-template-columns: repeat(1,6fr);
+    }
+    /*partners*/
+    .partners {
+        margin-top: 0;
+        height: 500px;
+    }
+    .h1__patners {
+        width: 200px;
+        margin-left: 80px;
+    }
+    .img__part {
+        margin-left: 60px;
+    }
+    .img__partners {
+        margin-right: 0;
+        margin-bottom: 60px;
+        width: 250px;
+    }
+    /*large order*/
+    .large__order {
+        background-image: none;
+    }
+    .h1__order {
+        padding: 0;
+        width: 300px;
+        margin-left: 60px;
+    }
+    .registration {
+        margin-left: 20px;
+        width: 340px;
+        height: 600px;
+    }
+    .h1__yavka {
+        margin-left: 40px;
+        font-size: 30px;
+    }
+    .button__grid {
+        display: grid;
+        grid-template-columns: repeat(1,4fr);
+        width: 300px;
+        margin-left: 40px;
+    }
+    /*flooter*/
+    .flooter {
+        height: 150px;
+    }
+    .menu2 {
+        width: 390px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    .logo {
+    }
+    .logotip {
+    }
+    .button2 {
+        margin-left: 30px;
+        width: 300px;
+    }
+    .menu__btn {
+        width: 300px;
+    }
+    .button__menu {
+    }
+    .buy__jam {
+        margin-left: 30px;
+        width: 130px;
+        height: 30px;
+        
+    }
+    .btn__buy__jam {
+        font-size: 14px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
 
 
 
