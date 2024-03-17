@@ -2,7 +2,7 @@ body{
     background-color: #FEE4BE;
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-family: Lobster; 
+    
 }
 /*header*/
 .header{
@@ -105,6 +105,7 @@ body{
 .h1__about__us {
     font-size: 46px;
     margin-left: 160px;
+    font-family: Lobster; 
 }
 .img__about{
     
@@ -193,6 +194,7 @@ body{
 .h1__jam {
     margin-left: 160px;
     font-size: 40px;
+    font-family: Lobster; 
 }
 .jam__grid{
     display: grid;
@@ -239,6 +241,7 @@ body{
 .h1__patners {
     font-size: 40px;
     margin-left: 160px;
+    font-family: Lobster; 
 }
 .img__part {
     margin-top: 80px;
@@ -258,6 +261,7 @@ body{
     padding-top: 80px;
     margin-bottom: 100px;
     font-size: 40px;
+    font-family: Lobster; 
 }
 .registration {
     margin-left: 400px;
@@ -374,7 +378,7 @@ body{
 }
 @media screen and (max-width: 480px) {
     body{
-        width: 390px;
+        width: auto;
     }
     /*header*/
     .header {
@@ -418,6 +422,7 @@ body{
     /*zagolovok*/
     .zagolovok {
         margin-left: 30px;
+        text-align: center;
     }
     .h1__zagolovok {
         font-size: 30px;
@@ -473,10 +478,39 @@ body{
     }
     .grid__about__us {
         margin-left: 80px;
+        margin-top: 90px;
         width: 200px;
         display: grid;
         grid-template-columns: repeat(1,3fr);
     }
+    .time__grid {
+        margin: 0;
+        text-align: center;
+    }
+    .time__svg {
+        margin: 0;
+    }
+    .h1__time {
+    }
+    .star__grid {
+        text-align: center;
+    }
+    .star__svg {
+        margin: 0;
+        text-align: center;
+    }
+    .h1__star {
+    }
+    .truck__grid {
+        text-align: center;
+    }
+    .truck__svg {
+        margin: 0;
+        text-align: center;
+    }
+    .h1__truck {
+    }
+    
     /*catalog jam*/
     .catalog__jam {
         background-image: none;
@@ -490,6 +524,9 @@ body{
         margin-left: 70px;
         display: grid;
         grid-template-columns: repeat(1,6fr);
+    }
+    .jam__price{
+        width: 230px;
     }
     /*partners*/
     .partners {
@@ -516,15 +553,17 @@ body{
         padding: 0;
         width: 300px;
         margin-left: 60px;
+        margin-bottom: 30px;
     }
     .registration {
-        margin-left: 20px;
+        margin-left: 25px;
         width: 340px;
         height: 600px;
     }
     .h1__yavka {
         margin-left: 40px;
         font-size: 30px;
+        width: 200px;
     }
     .button__grid {
         display: grid;
