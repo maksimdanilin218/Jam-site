@@ -4,6 +4,9 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 /*header*/
 .header{
     background-image: url(../img/фон.png);
@@ -454,6 +457,9 @@ body{
     color: black;
     font-size: 18px;
 }
+
+/*Скролл к объекту*/
+
 @media screen and (min-width: 370px) and (max-width: 480px) {
     body{
         width: auto;
