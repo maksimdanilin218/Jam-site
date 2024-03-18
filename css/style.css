@@ -14,6 +14,7 @@ body{
 .menu{
     display: flex;
     height: 60px;
+    width: auto;
 }
 .logo {
     margin-left: 40px;
@@ -25,30 +26,50 @@ body{
 }
 .button {
     display: flex;
-    width: 1200px;
+    width: 700px;
     margin-top: 20px;
     height: 50px;
     align-items: center;
     gap: 200px;
-    margin-left: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .menu__btn {
-    width: 600px;
-    height: 40px;
-    
-    
+    width: 700px;
+    height: 40px; 
+    display: flex; 
 }
 .button__menu {
     text-decoration: none;
-    width: 50px;
     height: 40px;
     font-size: 22px;
-    margin-left: 30px;
     color: black; 
+    padding-left: 20px;
 }
-.search__btn {
+.button__menu:nth-child(1){
+    width: 70px;
+    margin: 0;
+    padding: 0;
+}
+.button__menu:nth-child(2){
+    width: 100px;
+    margin: 0;
+}
+.button__menu:nth-child(3){
+    width: 120px;
+    margin: 0;
+}
+.button__menu:nth-child(4){
+    width: 160px;
+    margin: 0;
+}
+.search__btn{
     width: 100px;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a__search {
 }
 .button__search {
     margin-right: 20px;
@@ -58,7 +79,15 @@ body{
 /*zagolovok*/
 .zagolovok {
     margin-top: 150px;
-    margin-left: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+.zagolovok__info{
+    padding-left: 60px;
+    padding-top: 60px;
 }
 .h1__zagolovok {
     font-size: 46px;
@@ -72,17 +101,20 @@ body{
 .p__zagolovok {
     font-size: 24px;
     width: 450px; 
+    margin: 0;
 }
 .p__span{
     color: #e39d10;
 }
 .button__catalog {
-    margin-top: 80px;
+    margin-top: -180px;
     border-radius: 10px;
     width: 200px;
     height: 40px;
     background-color: #e39d10;
     text-align: center;
+    display: block;
+    margin-left: 60px;
 }
 .catalog{
     text-decoration: none;
@@ -91,8 +123,8 @@ body{
 }
 .foto__zagolovk {
     display: flex;
-    justify-content: flex-end;
-    margin-top: -330px;
+    width: 575px;
+    height: 500px;
 }
 .img__zagolovok {
 }
@@ -105,7 +137,10 @@ body{
 .h1__about__us {
     font-size: 46px;
     margin-left: 160px;
-    font-family: Lobster; 
+    font-family: Lobster;
+    width: 160px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 .img__about{
     
@@ -113,13 +148,19 @@ body{
 .info{
     display: flex;
     margin-top: 100px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .img__about__us {
     margin-top: 0px;
-    margin-left: 160px;
     display: flex;
+    width: auto;
+    height: 380px;
+    margin-left: -10px;
 }
 .info__about__us {
+    padding-left: 60px;
 }
 .p__info {
     color: black;
@@ -189,22 +230,28 @@ body{
 .catalog__jam {
     background-image: url(../img/фон.png);
     background-repeat: no-repeat;
-    height: 800px;
+    height: 1000px;
 }
 .h1__jam {
-    margin-left: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
     font-size: 40px;
     font-family: Lobster; 
 }
 .jam__grid{
     display: grid;
     grid-template-columns: repeat(3,2fr);
-    margin-left: 160px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 60px;
+    width: 1000px;
 }
 .jam {
     width: 260px;
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .img__jam {
 }
@@ -237,36 +284,45 @@ body{
 }
 /*partners*/
 .partners {
-    margin-top: 200px;
     height: 300px;
 }
 .h1__patners {
     font-size: 40px;
-    margin-left: 160px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Lobster; 
+    width: 200px;
 }
 .img__part {
     margin-top: 80px;
-    margin-left: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
 }
 .img__partners {
-    margin-right: 100px;
+    padding-left: 50px;
+}
+.img__partners:first-child{
+    padding: 0;
 }
 /*large order*/
 .large__order {
     background-image: url(../img/фон.png);
     background-repeat: no-repeat;
     height: 800px;
+    margin-top: 90px;
 }
 .h1__order {
-    margin-left: 160px;
-    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
     margin-bottom: 100px;
     font-size: 40px;
     font-family: Lobster; 
 }
 .registration {
-    margin-left: 400px;
+    margin-left: auto;
+    margin-right: auto;
     width: 800px;
     border-radius: 10px;
     background-color: #f0c162;
@@ -276,7 +332,8 @@ body{
     width: 300px;
     margin-top: 0;
     padding-top: 40px;
-    margin-left: 250px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 38px;
 }
 .button__grid {
@@ -284,9 +341,12 @@ body{
     grid-template-columns: repeat(2,2fr);
     width: 700px;
     gap: 30px;
-    margin-left: 60px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .name {
+    margin-left: auto;
+    margin-right: auto;
 }
 .h1__name {
     font-size: 20px;
@@ -300,6 +360,8 @@ body{
     width: 240px;
 }
 .number {
+    margin-left: auto;
+    margin-right: auto;
 }
 .h1__number {
     font-size: 20px;
@@ -314,6 +376,8 @@ body{
 }
 .e-mail {
     font-size: 26px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .h1__e-mail {
     font-size: 20px;
@@ -332,6 +396,8 @@ body{
     margin-top: 50px;
     background-color: coral;
     border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .a__yavka {
     margin-left: 60px;
@@ -346,35 +412,45 @@ body{
 /*flooter*/
 .flooter {
     background-color: #FFD392;
-    height: 200px
-    ;
+    height: 200px;
+    width: auto;
 }
 .menu2 {
     padding-top: 70px;
     display: flex;
 }
+.button__menu2 {
+    text-decoration: none;
+    width: 50px;
+    height: 40px;
+    font-size: 22px;
+    margin-left: 30px;
+    color: black; 
+}
 .button2{
-    width: 1200px;
+    width: 550px;
     margin-top: 20px;
-    height: 50px;
+    height: 30px;
     align-items: center;
     gap: 200px;
-    margin-left: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .buy__jam {
     width: 170px;
     background-color: coral;
     height: 40px;
     border-radius: 10px;
-    margin-left: 160px;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .btn__buy__jam {
     text-decoration: none;
     top: 25%;
     position: relative;
-    margin-left: 20px;
+    margin-left: 18px;
     color: black;
     font-size: 18px;
 }
@@ -389,7 +465,7 @@ body{
         width: auto;
     }
     .menu {
-        width: 390px;
+        width: auto;
     }
     .logo {
         margin-left: 10px;
@@ -399,28 +475,58 @@ body{
         height: 40px;
     }
     .button {
-        margin-left: 20px;
-        display: block;
-        width: 250px;
-        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 330px;
+        height: 30px;
     }
     .menu__btn {
-        width: 390px;
+        width: 330px;
+        height: 30px;
+        text-align: center;
+        display: flex;
+
     }
     .button__menu {
         font-size: 12px;
-        margin-left: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 20px;
+        display: inline-table;
     }
-    .search__btn {
+    .button__menu:nth-child(1){
+        width: 50px;
+    }
+    .button__menu:nth-child(2){
+        padding: 0;
         width: 60px;
-        margin-left: 250px;
-        margin-top: -40px;
-        padding-left: 10px;
+    }
+    .button__menu:nth-child(3){
+        padding: 0;
+        width: 70px;
+
+    }
+    .button__menu:nth-child(4){
+        padding: 0;
+        width: 80px;
+
+    }
+    .search__btn{
+        width: 75px;
+    }
+    .a__search{
+        width: 30px;
+        height: 30px;
+        display: inline-table;
+        text-align: center;
     }
     .button__search {
         width: 20px;
         height: 20px;
-        margin-right: 10px;
+        margin: 0;  
+    }
+    .button__search:nth-child(1){
+        padding-left: 10px;
         
     }
     /*zagolovok*/
@@ -428,6 +534,17 @@ body{
         margin-left: 20px;
         margin-left: 0;
         width: auto;
+        width: 300px;
+        display: inline;
+    }
+    .zagolovok__info{
+        padding: 0;
+        height: 390px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 100px;
     }
     .h1__zagolovok {
         font-size: 30px;
@@ -445,7 +562,8 @@ body{
     .p__span {
     }
     .button__catalog {
-        margin-left: 90px;
+        margin-left: auto;
+        margin-right: auto;
         width: 150px;
     }
     .catalog {
@@ -453,7 +571,8 @@ body{
     }
     .foto__zagolovk {
         visibility: hidden;
-        height: 200px;
+        height: 1px;
+        width: 1px;
     }
     .img__zagolovok {
     }
@@ -472,16 +591,20 @@ body{
     .info {
         display: block;
         margin-top: 50px;
+        width: auto;
     }
     .img__about__us {
-        margin-left: 60px;
+        margin-left: auto;
+        margin-right: auto;
         height: 300px;
         width: 300px;
         
     }
     .info__about__us {
         width: 350px;
-        margin-left: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
     }
     .p__info {
         width: 350px;
@@ -490,7 +613,8 @@ body{
     .span__about__us {
     }
     .grid__about__us {
-        margin-left: 60px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 90px;
         width: 200px;
         display: grid;
@@ -523,6 +647,10 @@ body{
     }
     .h1__truck {
     }
+    .button__catalog2{
+        margin-left: auto;
+        margin-right: auto;
+    }
     
     /*catalog jam*/
     .catalog__jam {
@@ -536,9 +664,11 @@ body{
         text-align: center;
     }
     .jam__grid {
-        margin-left: 70px;
+        margin-left: auto;
+        margin-right: auto;
         display: grid;
         grid-template-columns: repeat(1,6fr);
+        width: 300px;
     }
     .jam__price{
         width: 230px;
@@ -550,41 +680,63 @@ body{
         height: 500px;
     }
     .h1__patners {
-        width: auto;
+        width: 200px;
         text-align: center;
-        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
     .img__part {
-        margin-left: 0px;
-        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
         text-align: center;
     }
-    .img__partners {
-        margin-left: 40px;
+    .img__partners:nth-child(1) {
+        margin-left: auto;
+        margin-left: auto;
         margin-bottom: 60px;
-        width: 250px;
+        width: 300px;
+        padding: 0;
+    }
+    .img__partners:nth-child(2) {
+        margin-left: auto;
+        margin-left: auto;
+        margin-bottom: 60px;
+        width: 300px;
+        padding: 0;
+    }
+    .img__partners:nth-child(3) {
+        margin-left: auto;
+        margin-left: auto;
+        margin-bottom: 60px;
+        width: 300px;
+        padding: 0;
     }
     /*large order*/
     .large__order {
         background-image: none;
         width: auto;
+        height: 700px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .h1__order {
         padding: 0;
-        width: auto;
-        margin-left: 0;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 30px;
         text-align: center;
     }
     .registration {
-        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
         width: 350px;
-        height: 600px;
-        margin-left: 20px;
-        justify-content: center;
+        height: 550px;
     }
     .h1__yavka {
-        margin-left: 40px;
+        margin-left: auto;
+        margin-right: auto;
         font-size: 30px;
         width: 250px;
     }
@@ -592,7 +744,8 @@ body{
         display: grid;
         grid-template-columns: repeat(1,4fr);
         width: 300px;
-        margin-left: 40px;
+        margin-left: auto;
+        margin-left: auto;
     }
     /*flooter*/
     .flooter {
@@ -600,7 +753,7 @@ body{
         width: auto;
     }
     .menu2 {
-        width: 390px;
+        width: auto;
         display: flex;
         justify-content: space-between;
         padding-top: 30px;
@@ -610,20 +763,27 @@ body{
     .logotip {
     }
     .button2 {
-        margin-left: 30px;
+        margin-left: auto;
+        margin-right: auto;
         width: 300px;
     }
-    .menu__btn {
-        width: 300px;
+    .menu__btn2 {
+        width: 270px;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .button__menu {
+    .button__menu2 {
+        font-size: 12px;
+        margin-left: 5px;
+        height: 30px;
     }
     .buy__jam {
-        margin-left: 30px;
+        margin-left: auto;
+        margin-right: auto;
         width: 130px;
         height: 30px;
         text-align: center;
-        margin-top: 0;
+        margin-top: 10px;
         padding-bottom: 5px;
         
     }
@@ -635,7 +795,7 @@ body{
 }
 @media screen and (min-width: 300px) and (max-width: 360px){
     body{
-        width: 360px;
+        width: auto;
     }
     /*header*/
     .header {
@@ -643,7 +803,7 @@ body{
         height: 600px;
     }
     .menu {
-        width: 340px;
+        width: auto;
     }
     .logo {
         margin-left: 10px;
@@ -655,22 +815,38 @@ body{
         height: 25px;
     }
     .button {
-        margin-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
         display: block;
-        width: 230px;
+        width: 270px;
         height: 20px;
     }
     .menu__btn {
-        width: 390px;
+        width: auto;
+        height: 20px;
     }
     .button__menu {
+        display: block;
         font-size: 10px;
         margin-left: 5px;
     }
+    .button__menu:nth-child(1){
+        width: 90px;
+        margin: 0;
+        padding: 0;
+    }
+    .button__menu:nth-child(2){
+        padding-left: 10px;
+    }
+    .button__menu:nth-child(3){
+        padding-left: 10px;
+    }
+    .button__menu:nth-child(4){
+        padding-left: 10px;
+    }
     .search__btn {
         width: 60px;
-        margin-left: 250px;
-        margin-top: -40px;
+        margin-left: 5px;
     }
     .button__search {
         width: 13px;
@@ -680,9 +856,15 @@ body{
     }
     /*zagolovok*/
     .zagolovok {
-        margin-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
         width: 300px;
+        height: 500px;
+    }
+    .zagolovok__info{
+        padding: 0;
+        height: 500px;
     }
     .h1__zagolovok {
         font-size: 26px;
@@ -713,33 +895,49 @@ body{
     }
     .foto__zagolovk {
         visibility: hidden;
-        height: 200px;
+        height: 1px;
+        width: 1px;
+        margin-left: -200px;
+        display: block;
+
     }
     .img__zagolovok {
+        width: 1px;
+        height: 1px;
+        margin-left: -200px;
     }
     /*about us*/
     .about__us {
         background-image: none;
         height: 1270px;
+        margin-top: 60px;
     }
     .h1__about__us {
-        margin-left: 30px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 0;
         width: 160px;
+        font-family: Lobster;
     }
     .info {
         display: block;
         margin-top: 50px;
+        width: auto;
     }
     .img__about__us {
-        margin-left: 30px;
+        margin-left: auto;
+        margin-right: auto;
         height: 300px;
         width: 300px;
         
     }
     .info__about__us {
         width: 330px;
-        margin-left: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+
     }
     .p__info {
         width: 330px;
@@ -748,7 +946,8 @@ body{
     .span__about__us {
     }
     .grid__about__us {
-        margin-left: 50px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 90px;
         width: 200px;
         display: grid;
@@ -785,15 +984,18 @@ body{
     /*catalog jam*/
     .catalog__jam {
         background-image: none;
-        width: 360px;
+        width: 300px;
         height: 2650px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .h1__jam {
-        margin-left: 30px;
+        margin-left: auto;
+        margin-right: auto;
         width: 170px;
     }
     .jam__grid {
-        margin-left: 40px;
+        width: auto;
         display: grid;
         grid-template-columns: repeat(1,6fr);
     }
@@ -808,13 +1010,18 @@ body{
     .partners {
         margin-top: 0;
         height: 500px;
+        width: 330px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .h1__patners {
         width: 200px;
-        margin-left: 30px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .img__part {
-        margin-left: 40px;
+        margin-left: auto;
+        margin-right: auto;
         width: 280px;
     }
     .img__partners {
@@ -822,9 +1029,18 @@ body{
         margin-bottom: 60px;
         width: 250px;
     }
+    .img__partners:nth-child(2) {
+        padding: 0;
+    }
+    .img__partners:nth-child(3) {
+        padding: 0;
+    }
     /*large order*/
     .large__order {
         background-image: none;
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .h1__order {
         padding: 0;
@@ -833,10 +1049,8 @@ body{
         margin-bottom: 30px;
     }
     .registration {
-        margin-left: 0;
         width: 320px;
-        height: 600px;
-        margin-left: 20px;
+        height: 550px;
     }
     .h1__yavka {
         margin-left: 40px;
@@ -847,7 +1061,8 @@ body{
         display: grid;
         grid-template-columns: repeat(1,4fr);
         width: 280px;
-        margin-left: 30px;
+        margin-left: auto;
+        margin-right: auto;
     }
     /*flooter*/
     .flooter {
@@ -855,7 +1070,7 @@ body{
         width: 360px;
     }
     .menu2 {
-        width: 390px;
+        width: auto;
         display: flex;
         justify-content: space-between;
         padding-top: 30px;
@@ -868,22 +1083,27 @@ body{
         margin-left: 30px;
         width: 300px;
     }
-    .menu__btn {
-        width: 300px;
+    .menu__btn2 {
+        width: 240px;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .button__menu {
+    .button__menu2 {
+        font-size: 12px;
+        margin: 0;
     }
     .buy__jam {
-        margin-left: 30px;
-        width: 130px;
-        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        height: 20px;
         text-align: center;
-        margin-top: 0;
-        padding-bottom: 5px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
         
     }
     .btn__buy__jam {
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
         margin-left: 0;
     }
