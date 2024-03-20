@@ -466,8 +466,8 @@ html{
     }
     /*header*/
     .header {
-        background-image: none;
-        height: 600px;
+        width: auto;
+        height: 580px;
         width: auto;
     }
     .menu {
@@ -546,7 +546,7 @@ html{
     .zagolovok__info{
         padding: 0;
         height: 390px;
-        width: 300px;
+        width: 280px;
         margin-left: auto;
         margin-right: auto;
         display: block;
@@ -554,7 +554,7 @@ html{
     }
     .h1__zagolovok {
         font-size: 30px;
-        width: auto;
+        width: 300px;
         text-align: center;
 
     }
@@ -564,6 +564,7 @@ html{
     .p__zagolovok {
         width: auto;
         text-align: center;
+        font-size: 22px;
     }
     .p__span {
     }
@@ -805,8 +806,8 @@ html{
     }
     /*header*/
     .header {
-        background-image: none;
-        height: 600px;
+        width: auto;
+        height: 580px;
     }
     .menu {
         width: auto;
