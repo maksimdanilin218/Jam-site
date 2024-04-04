@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+    <link rel="stylesheet" href="css/light.css" id="theme">
     <title>Jam at Baba Dusi's</title>
 </head>
 <body>
     <div class="header">
-        <div class="menu">
+        <div class="laptop__menu">
             <div class="logo">
                 <img class="logotip" src="img/logotip.png" alt="">
             </div>
@@ -21,11 +22,32 @@
                     <a class="button__menu" href="#large__order">Крупный заказ</a>
                     <div class="search__btn">
                         <a class="a__search" href=""><svg class="button__search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></a>
-                    <a class="a__search" href=""><svg class="button__search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg></a>
+                        <a class="a__search" href=""><svg class="button__search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg></a>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
+        <div class="mobile__menu">
+            <nav class="nav">
+                <ul>
+                    <label for="">
+                        Включить тёмную тему?
+                        <input type="checkbox" class="theme-checkbox">
+                    </label>
+                    <li>Главаня</li>
+                    <li>О нас</li>
+                    <li>Контакты</li>
+                    <li>Отзывы клиентов</li>
+                    <li>Наши продукты</li>
+                </ul>
+            </nav>
+            <div class="burger">
+                <span></span>
+            </div>
+            <div class="logotip">
+                <img src="./img/logotip.png" alt="" class="img__logo__mobile">
+            </div>
+        </div> 
         <div class="zagolovok">
             <div class="zagolovok__info">
                 <h1 class="h1__zagolovok">Варенье от <span class="span__zagolovok">Бабы Дуси</span></h1>
@@ -71,7 +93,7 @@
             <div class="jam">
                 <img class="img__jam" src="img/jam1.png" alt="">
                 <div class="jam__info">
-                    <p>Варенье Вишня-крыжовник</p>  
+                    <p class="p__name__jam">Варенье Вишня-крыжовник</p>  
                     <div class="jam__price">
                         <p class="p__price">879 ₽</p> 
                         <div class="sale">
@@ -84,7 +106,7 @@
             <div class="jam">
                 <img class="img__jam" src="img/jam2.png" alt="">
                 <div class="jam__info">
-                    <p>Варенье Клубничка</p>  
+                    <p class="p__name__jam">Варенье Клубничка</p>  
                     <div class="jam__price">
                         <p class="p__price">980 ₽</p> 
                         <div class="sale">
@@ -97,7 +119,7 @@
             <div class="jam">
                 <img class="img__jam" src="img/jam3.png" alt="">
                 <div class="jam__info">
-                    <p>Варенье Фирменное</p>  
+                    <p class="p__name__jam">Варенье Фирменное</p>  
                     <div class="jam__price">
                         <p class="p__price">1440 ₽</p> 
                         <div class="sale">
@@ -110,7 +132,7 @@
             <div class="jam">
                 <img class="img__jam" src="img/jam4.png" alt="">
                 <div class="jam__info">
-                    <p>Варенье Малина-долина</p>  
+                    <p class="p__name__jam">Варенье Малина-долина</p>  
                     <div class="jam__price">
                         <p class="p__price">1440 ₽</p> 
                         <div class="sale">
@@ -123,7 +145,7 @@
             <div class="jam">
                 <img class="img__jam" src="img/jam5.png" alt="">
                 <div class="jam__info">
-                    <p>Варенье Секретный плод</p>  
+                    <p class="p__name__jam">Варенье Секретный плод</p>  
                     <div class="jam__price">
                         <p class="p__price">1800 ₽</p> 
                         <div class="sale">
@@ -136,7 +158,7 @@
             <div class="jam">
                 <img class="img__jam" src="img/jam6.png" alt="">
                 <div class="jam__info">
-                    <p>Варенье Мамбастик</p>  
+                    <p class="p__name__jam">Варенье Мамбастик</p>  
                     <div class="jam__price">
                         <p class="p__price">1800 ₽</p> 
                         <div class="sale">
@@ -197,5 +219,6 @@
             </div> 
         </div>
     </div>
+    <script src="js/mobile.js"></script>
 </body>
 </html>

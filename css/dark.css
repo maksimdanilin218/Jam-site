@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+/*header*/
+.button__menu {
+    font-size: 22px;
+    color: aliceblue; 
+}
+.button__search{
+    fill: aliceblue
+}
+/*zagolovok*/
+.h1__zagolovok{
+    color: aliceblue;
+    font-size: 46px;
+    font-family: Lobster;
+}
+.p__zagolovok{
+    font-size: 24px;
+    color: aliceblue;
+}
+.h1__about__us{
+    font-size: 46px;
+    color: aliceblue;
+}
+.p__info {
+    color: aliceblue;
+    font-size: 18px;
+}
+.span__about__us {
+    color: #e39d10;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.time__svg {
+    fill: aliceblue;
+}
+.h1__time{
+    color: aliceblue;
+}
+.star__svg{
+    fill: aliceblue;
+}
+.h1__star{
+    color: aliceblue;
+}
+.truck__svg{
+    fill: aliceblue;
+}
+.h1__truck{
+    color: aliceblue;
+}
+/*jam_catalog*/
+.h1__jam {
+    color: aliceblue;
+    font-size: 40px;
+     
+}
+.p__name__jam{
+    color: aliceblue;
+}
+.p__sale1{
+    color: aliceblue;
+}
+/*partners*/
+.h1__patners {
+    font-size: 40px;
+    color: aliceblue; 
+}
+.img__partners:last-child{
+    filter: invert(1);
+}

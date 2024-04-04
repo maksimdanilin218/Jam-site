@@ -1,0 +1,74 @@
+body{
+    background-color: #FEE4BE;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+/*header*/
+.button__menu{
+    font-size: 22px;
+    color: black;
+}
+/*zagolovok*/
+.h1__zagolovok{
+    color: black;
+    font-size: 46px;
+    font-family: Lobster;
+}
+.p__zagolovok{
+    font-size: 24px;
+    color: black;
+}
+.h1__about__us{
+    font-size: 46px;
+    color: black;
+}
+.p__info {
+    color: black;
+    font-size: 18px;
+}
+.span__about__us {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.time__svg {
+    fill: black;
+}
+.h1__time{
+    color: black;
+}
+.star__svg{
+    fill: black;
+}
+.h1__star{
+    color: black;
+}
+.truck__svg{
+    fill: black;
+}
+.h1__truck{
+    color: black;
+}
+/*jam_catalog*/
+.h1__jam {
+    color: black;
+    font-size: 40px;
+     
+}
+.p__name__jam{
+    color: black;
+}
+.p__sale1{
+    color: black;
+}
+/*partners*/
+.h1__patners {
+    font-size: 40px;
+    color: black; 
+}
+
+    

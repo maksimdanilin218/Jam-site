@@ -1,5 +1,4 @@
 body{
-    background-color: #FEE4BE;
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
@@ -14,7 +13,7 @@ html{
     width: auto;
     background-repeat: no-repeat;
 }
-.menu{
+.laptop__menu{
     display: flex;
     height: 60px;
     width: auto;
@@ -44,9 +43,7 @@ html{
 }
 .button__menu {
     text-decoration: none;
-    height: 40px;
-    font-size: 22px;
-    color: black; 
+    height: 40px; 
     padding-left: 20px;
 }
 .button__menu:nth-child(1){
@@ -79,10 +76,83 @@ html{
     width: 30px;
     height: 30px;
 }
+/*mobile__menu*/
+.mobile__menu{
+    overflow: hidden;
+}
+.open{
+    display: flex !important;
+}
+.mobile__menu{
+    display: none;
+}
+.nav{
+    display: flex;
+    width: auto;
+}
+.nav ul{
+    width: 80px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+
+}
+li{
+    color: azure;
+    gap: 10px;
+}
+.burger{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+}
+.burger span{
+    height: 2px;
+    width: 80%;
+    transform: scale(1);
+    background-color: #fff;
+}
+.burger::before, .burger::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    transition: all 0.3s ease 0s;
+}
+.burger::before{
+    top: 0;
+}
+.burger::after{
+    bottom: 0;
+}
+.burger.active span{
+    transform: scale(0);
+}
+.burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+label{
+    color: aliceblue;
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+}
 /*zagolovok*/
 .zagolovok {
     margin-top: 150px;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
     width: 1200px;
     display: grid;
@@ -133,6 +203,7 @@ html{
 }
 /*about us*/
 .about__us {
+    margin-top: 100px;
     background-image: url(../img/фон.png);
     background-repeat: no-repeat;
     height: 700px;
@@ -166,8 +237,6 @@ html{
     padding-left: 60px;
 }
 .p__info {
-    color: black;
-    font-size: 18px;
     width: 600px;
 }
 .span__about__us {
@@ -234,12 +303,12 @@ html{
     background-image: url(../img/фон.png);
     background-repeat: no-repeat;
     height: 1000px;
+    margin-top: 100px;
 }
 .h1__jam {
     margin-left: auto;
     margin-right: auto;
     width: 170px;
-    font-size: 40px;
     font-family: Lobster; 
 }
 .jam__grid{
@@ -287,17 +356,17 @@ html{
 }
 /*partners*/
 .partners {
+    margin-top: 100px;
     height: 300px;
 }
 .h1__patners {
-    font-size: 40px;
     margin-left: auto;
     margin-right: auto;
     font-family: Lobster; 
     width: 200px;
 }
 .img__part {
-    margin-top: 80px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     width: 1100px;
@@ -470,82 +539,88 @@ html{
         height: 580px;
         width: auto;
     }
-    .menu {
+    .laptop__menu {
+        display: none;
+    }
+    .mobile__menu{
         width: auto;
-    }
-    .logo {
-        margin-left: 10px;
-    }
-    .logotip {
-        width: 40px;
-        height: 40px;
-    }
-    .button {
-        margin-left: auto;
-        margin-right: auto;
-        width: 330px;
-        height: 30px;
-    }
-    .menu__btn {
-        width: 330px;
-        height: 30px;
-        text-align: center;
+        height: 70px;
         display: flex;
-
+        justify-content: space-between;
+        background-color: none;
     }
-    .button__menu {
-        font-size: 12px;
-        margin-left: auto;
-        margin-right: auto;
-        height: 20px;
-        display: inline-table;
-    }
-    .button__menu:nth-child(1){
+    .logotip{
+        margin: 0;
         width: 50px;
-    }
-    .button__menu:nth-child(2){
-        padding: 0;
-        width: 60px;
-    }
-    .button__menu:nth-child(3){
-        padding: 0;
-        width: 70px;
-
-    }
-    .button__menu:nth-child(4){
-        padding: 0;
-        width: 80px;
-
-    }
-    .search__btn{
-        width: 75px;
-    }
-    .a__search{
-        width: 30px;
-        height: 30px;
-        display: inline-table;
-        text-align: center;
-    }
-    .button__search {
-        width: 20px;
-        height: 20px;
-        margin: 0;  
-    }
-    .button__search:nth-child(1){
-        padding-left: 10px;
+        height: 40px;
+        margin-right: 30px;
         
+    }
+    .img__logo__mobile{
+        margin-left: 0;
+        margin-right: 30px;
+        width: 50px;
+        height: 45px;
+        margin-top: 20px;
+    }
+    .burger{
+        display: flex;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .nav.active{
+        background-color: black;
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    .nav{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 200px;
+        top: 0; bottom: 0; left: 0; right: 0;
+        z-index: 50;
+        overflow: auto;
+        background-color: #e39d10;
+        animation: burgerAnimation 0.4s;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: coral;
+    }
+    .nav ul{
+        flex-direction: column;
+        row-gap: 15px;
+        margin-top: 120px;
+    }
+    @keyframes burgerAnimation {
+        from {opacity: 0;}
+        t {opacity: 1;}
+    }
+    li{
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+    li:nth-child(5){
+        height: 60px;
+    }
+    ul{
+        padding: 0;
+        margin-left: 20px;
+        margin-right: auto;
+        width: 120px;
     }
     /*zagolovok*/
     .zagolovok {
         margin-left: 20px;
         margin-left: 0;
         width: auto;
-        width: 300px;
-        display: inline;
+        height: 450px;
+        display: block;
     }
     .zagolovok__info{
         padding: 0;
-        height: 390px;
+        height: 300px;
         width: 280px;
         margin-left: auto;
         margin-right: auto;
@@ -572,6 +647,7 @@ html{
         margin-left: auto;
         margin-right: auto;
         width: 150px;
+        margin-top: 10px;
     }
     .catalog {
         font-size: 26px;
